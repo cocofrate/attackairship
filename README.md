@@ -10,6 +10,7 @@ HOW TO USE
 
 - You can spawn the airship by spawn model : hindenburg 
 - Or get it at airport desert.
+- Press X on keyboard or A on controller to start bombing from the airship
 
 The airship are based on this model : 
 https://fr.gta5-mods.com/vehicles/hindenburg-add-on-replace
