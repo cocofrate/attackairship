@@ -1,8 +1,8 @@
 ----------------------config-------------------------
 
-rayon = 70 -- Set bombing radius here  
+rayon = 500 -- Set bombing radius here  
 
-speedbomb = 50 -- Time between each falling bomb (in mlsc)
+speedbomb = 30 -- Time between each falling bomb (in mlsc)
 
 strikeCount = 20 -- Number of bombs dropped when the button is pressed
 
@@ -43,7 +43,7 @@ function bombardement(arme)
     while o < strikeCount do
       randomX = math.random(-rayon, rayon)
       randomY = math.random(-rayon, rayon)
-      ShootSingleBulletBetweenCoords(coords.x+randomX, coords.y+randomY, coords.z-10, coords.x+randomX, coords.y+randomY, coords.z-500, 500, true,GetHashKey(arme), ped, true, false, 0)
+      ShootSingleBulletBetweenCoords(coords.x, coords.y, coords.z-10, coords.x+randomX, coords.y+randomY, coords.z-500, 500, true,GetHashKey(arme), ped, true, false, 0)
       o = o + 1
       Citizen.Wait(speedbomb)
     end

@@ -12,11 +12,11 @@ Citizen.CreateThread(function()
     while not HasModelLoaded(model) do Citizen.Wait(0) end
     RequestModel(moto)
     while not HasModelLoaded(moto) do Citizen.Wait(0) end
-    local ped = PlayerPedId()
     blip = AddBlipForCoord(blipCoords.x, blipCoords.y, blipCoords.z)
     SetBlipAsShortRange(blip, true)
     SetBlipSprite(blip, 638)
     while true do
+        local ped = PlayerPedId()
         Citizen.Wait(1)
         local coords = GetEntityCoords(ped)
         local marker = DrawMarker(0, blipCoords.x, blipCoords.y, blipCoords.z,0.0, 0.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 1.0, 255, 0, 0, 50, false, true, 2, nil, nil, false)
