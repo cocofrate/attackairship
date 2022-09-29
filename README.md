@@ -8,7 +8,7 @@ ensure attackairship
 
 HOW TO USE
 
-- You can spawn the airship by spawn model : hindenburg 
+- You can spawn the airship by spawn model : hinderburg 
 - Or get it at airport desert.
 - Press X on keyboard or A on controller to start bombing from the airship
 
