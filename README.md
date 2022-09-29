@@ -1,6 +1,6 @@
 INSTALLATION
 
-- Put the folders "hindenburg" and "attackairship" in your resources folder of your FiveM server. Then add the lines on your server.cfg :
+- Put the folders "hinderburg" and "attackairship" in your resources folder of your FiveM server. Then add the lines on your server.cfg :
 ```
 ensure hinderburg
 ensure attackairship
